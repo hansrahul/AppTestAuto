@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups><run><include name="Smoke"></include></run></groups>
+ <listeners>
+	 <listener class-name="hanss_rh_framework.Utils.Listeners"/>
+</listeners>
+
+  <test thread-count="1" name="App Installation and Aspiration Selection positive and negativr cases">
+    <classes>
+         <class name="hanss_rh_framework.Onboarding"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+
+
+</suite> <!-- Suite -->
